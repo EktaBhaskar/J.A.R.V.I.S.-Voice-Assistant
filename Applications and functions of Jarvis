@@ -1,0 +1,18 @@
+If you are into movies you may have heard of Jarvis, an A.I. based character in the Iron Man films.
+
+The features that this program would have are:-
+1.Recognize spoken voice (Speech recognition)
+2.Answer in spoken voice (Text to speech)
+3.Answer simple commands
+
+
+For working of this project properly, we will need (Ubuntu) Linux(though v can run it on command prompt also), Python and a working microphone.
+
+
+1.Recognize spoken voice
+Speech recognition can by done using the Python SpeechRecognition module. 
+
+2.Answer in spoken voice (Text To Speech)
+Various APIs and programs are available for text to speech applications. Espeak and pyttsx work out of the box but sound very robotic. We decided to go with win32com.client as::-
+
+import win32com.client as winc1
